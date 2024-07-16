@@ -1,0 +1,200 @@
+html, body {
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+* {
+    box-sizing: border-box;
+    color: white;
+    font-family: 'roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+    height: 1000px;
+    width: 700px;
+    background: url(/Assignment3/images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#top {
+    flex: 1;
+    display: flex;
+}
+
+.cast {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cast > p {
+    margin: 0%;
+}
+
+.firstName {
+    font-size: .7em;
+    font-weight: 300;
+}
+
+.lastName {
+    font-size: .9em;
+}
+
+.conjunction {
+    font-size: .5em;
+    font-weight: 800;
+    margin-right: .4em;
+}
+
+#middle {
+    flex: 6;
+    display: flex;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#image1 {
+    background: url(/Assignment3/images/image1-removebg-preview.png);
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+}
+
+#bottom {
+    flex: 2.3;
+    display: flex;
+    flex-direction: column;
+}
+
+#description {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .7em;
+}
+
+#description > p {
+    margin: 0%;
+}
+
+.description1 {
+    font-size: 1em;
+    font-weight: 350;
+}
+
+.description2 {
+    font-size: .8em;
+    font-weight: 300;
+}
+
+.highlight {
+    font-weight: 700;
+}
+
+#title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title > img {
+    width: 550px;
+    height: auto;
+}
+
+#release {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#release > p {
+    margin: 0%;
+}
+
+.release1 {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.release2 {
+    font-size: .6em;
+    letter-spacing: .7em;
+    font-weight: 300;
+}
+
+.release3 {
+    font-size: 1.3em;
+    font-weight: 350;
+}
+
+@media screen and (max-width: 425px) {
+    #main {
+        height: 700px;
+        width: 400px;
+    }
+
+    .firstName {
+        font-size: .5em;
+    }
+
+    .lastName {
+        font-size: .7em;
+    }
+
+    .conjunction {
+        font-size: .3em;
+    }
+
+    #image1 {
+        width: 200px;
+        height: 270px;
+    }
+
+    #description {
+        gap: .4em;
+    }
+
+    .description1 {
+        font-size: .8em;
+    }
+
+    .description2 {
+        font-size: .67em;
+    }
+
+    #title > img {
+        width: 350px;
+    }
+
+    .release1 {
+        font-size: .9em;
+    }
+
+    .release2 {
+        font-size: .5em;
+    }
+
+    .release3 {
+        font-size: 1.1em;
+    }
+}

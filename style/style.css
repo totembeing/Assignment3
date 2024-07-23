@@ -114,7 +114,7 @@ body {
     justify-content: center;
 }
 
-#title > img {
+#title > a > img {
     width: 550px;
     height: auto;
 }
@@ -182,7 +182,7 @@ body {
         font-size: .67em;
     }
 
-    #title > img {
+    #title > a > img {
         width: 350px;
     }
 

@@ -10,6 +10,9 @@ html, body {
     font-family: 'roboto', sans-serif;
 }
 
+/*The whole digital poster has been made solely using flexbox. 
+Including the body and it's several components.*/
+
 body {
     display: flex;
     align-items: center;
@@ -26,6 +29,8 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+/*The div holding the cast acknowledgement.*/
 
 #top {
     flex: 1;
@@ -59,6 +64,8 @@ body {
     margin-right: .4em;
 }
 
+/*The div holding the transparent png image of the floating astronaut.*/
+
 #middle {
     flex: 6;
     display: flex;
@@ -67,12 +74,18 @@ body {
     justify-content: center;
 }
 
+
+/*Instead of using an image element for the image of the astronaut, a div has been used with the image being its background image.*/
+
 #image1 {
     background: url(/Assignment3/images/image1-removebg-preview.png);
     height: 400px;
     width: 300px;
     background-size: cover;
 }
+
+
+/*The div holding the movie title, description and details related to its release.*/
 
 #bottom {
     flex: 2.3;
@@ -146,6 +159,10 @@ body {
     font-size: 1.3em;
     font-weight: 350;
 }
+
+/*The movie poster has been made responsive, so i recommend you viewing it on your smartphone.*/
+
+/*Since the maximum width of the poster is 700px, it worked well for breakpoints till 768px, due to which just a single breakpoint needed to be taken care of.*/
 
 @media screen and (max-width: 425px) {
     #main {

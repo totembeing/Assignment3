@@ -22,7 +22,7 @@ body {
 #main {
     height: 1000px;
     width: 700px;
-    background: url(/Assignment3/images/bg.jpg);
+    background: url('../images/bg.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 5%;
